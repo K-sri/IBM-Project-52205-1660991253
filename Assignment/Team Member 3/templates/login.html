@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body style="background-color:rgb(211,211,211)">
+
+<form action="{{ url_for("login")}}" method="post" style="margin-left:43%;margin-right:43%;margin-top:8%">
+  <h2></h2>Username:<br>
+  <input type="text" name='username'><br>
+  Email:<br>
+  <input  type= 'email' name='email' ><br><br>
+  Phone no:<br>
+  <input  type= 'number' name='no' ><br><br>
+<input type="submit" value="Register">
+</form>
+<h1 >{{info}}</h1>
+
+</body>
+</html>
